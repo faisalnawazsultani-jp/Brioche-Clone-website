@@ -1,0 +1,245 @@
+@media screen and (max-width:991px){
+    .head{
+        font-size: 42px;
+    }
+    .content{
+        top: 65%;
+    }
+    .build-main img{
+        height: 500px;
+    }
+    .build-side img{
+        height: 500px;
+    }
+    .para h5{
+        font-size: 34px;
+    }
+    .box-container img{
+        height: 450px;
+    }
+    .box-container button{
+        width: 200px;
+        height: 70px;
+        font-size: 17px;
+    }
+    .head-9{
+        min-height: 500px;
+        font-size: 34px;
+        line-height: 44px;
+    }
+    .story-image img{
+        height: 500px;
+    }
+}
+
+@media screen and (max-width:767px){
+    .nav-container{
+        padding: 0 20px;
+    }
+    .nav1{
+        padding: 10px 0;
+    }
+    #mainNavbar{
+        width: 100%;
+    }
+    .first-list{
+        align-items: flex-start !important;
+        gap: 0;
+        padding: 15px 0;
+    }
+    .secli a{
+        padding: 8px 0 !important;
+    }
+    .icon i{
+        font-size: 28px;
+    }
+    .video-container video{
+        width: 94%;
+        min-height: 480px;
+        object-fit: cover;
+    }
+    .content{
+        top: 65%;
+    }
+    .head{
+        font-size: 38px;
+    }
+    .content button{
+        height: 55px;
+        width: 150px;
+        font-size: 20px;
+    }
+    .img-container{
+        padding: 30px 25px 60px;
+    }
+    .head-two,
+    .head-4,
+    .head-8{
+        font-size: 38px;
+    }
+    .product-card img{
+        height: 360px;
+    }
+    .new-container{
+        padding: 30px 25px 60px;
+    }
+    .build-main img,
+    .build-side img{
+        height: auto;
+        max-height: 550px;
+        object-fit: cover;
+    }
+    .text-container{
+        padding: 20px 25px 40px;
+    }
+    .para{
+        min-height: 320px;
+        padding: 30px 20px;
+    }
+    .para h5{
+        font-size: 30px;
+    }
+    .para h5 br{
+        display: none;
+    }
+    marquee{
+        font-size: 38px;
+    }
+    .box-container{
+        padding: 30px 25px 60px;
+    }
+    .box-container img{
+        height: 500px;
+    }
+    .cookie-box{
+        margin-bottom: 10px;
+    }
+    .box2-container{
+        padding: 20px 25px 50px;
+    }
+    .head-9{
+        min-height: 400px;
+        font-size: 30px;
+        line-height: 40px;
+        padding: 40px 20px;
+    }
+    .head-9 br{
+        display: none;
+    }
+    .story-image img{
+        height: auto;
+        max-height: 550px;
+    }
+    .last-container{
+        padding: 35px 25px 0;
+    }
+    .head-10{
+        padding: 0;
+    }
+    .mynav{
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width:575px){
+    .nav-container{
+        padding: 0 15px;
+    }
+    .nav1 .logo h1{
+        font-size: 30px;
+    }
+    .video-container video{
+        width: 94%;
+        min-height: 420px;
+    }
+    .content{
+        top: 62%;
+    }
+    .head{
+        font-size: 31px;
+    }
+    .head br{
+        display: none;
+    }
+    .content button{
+        height: 50px;
+        width: 135px;
+        font-size: 18px;
+    }
+    .head-two,
+    .head-4,
+    .head-8{
+        font-size: 32px;
+    }
+    .product-card img{
+        height: auto;
+        max-height: 420px;
+    }
+    .product-card .head-3{
+        font-size: 22px;
+    }
+    .new{
+        min-height: 65px;
+        margin: 20px auto;
+    }
+    .new p{
+        font-size: 21px;
+    }
+    .head-5{
+        font-size: 22px;
+        text-align: center;
+        padding-left: 0;
+    }
+    .para{
+        min-height: 280px;
+    }
+    .para h5{
+        font-size: 25px;
+    }
+    marquee{
+        font-size: 30px;
+    }
+    .box-container img{
+        height: 430px;
+    }
+    .box-container button{
+        height: 65px;
+        width: 210px;
+        font-size: 17px;
+    }
+    .head-9{
+        min-height: 330px;
+        font-size: 25px;
+        line-height: 34px;
+    }
+    .foot{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:375px){
+    .head{
+        font-size: 27px;
+    }
+    .video-container video{
+        min-height: 380px;
+    }
+    .head-two,
+    .head-4,
+    .head-8{
+        font-size: 29px;
+    }
+    .para h5{
+        font-size: 22px;
+    }
+    marquee{
+        font-size: 26px;
+    }
+    .box-container img{
+        height: 380px;
+    }
+    .head-9{
+        font-size: 22px;
+        line-height: 31px;
+    }
+}

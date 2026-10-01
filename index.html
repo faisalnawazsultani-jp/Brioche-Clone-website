@@ -1,0 +1,252 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brioche Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="media.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- section 1 -->
+    <div class="nav-container container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <nav class="nav1 navbar navbar-expand-md">
+                    <div class="logo navbar-brand">
+                        <h1><b>Brioche</b></h1>
+                    </div>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="mainNavbar">
+                        <ul class="first-list navbar-nav align-items-md-center">
+                            <li class="secli nav-item"><a class="nav-link" href="#">Home</a></li>
+                            <li class="secli nav-item"><a class="nav-link" href="#">About</a></li>
+                            <li class="secli nav-item"><a class="nav-link" href="#">Shop</a></li>
+                            <li class="secli icon nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="fa-solid fa-bag-shopping"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 2 -->
+    <div class="vid-section container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="video-container">
+                    <video  autoplay muted loop playsinline>
+                        <source  src="Videos/home-video.mp4" type="video/mp4">
+                    </video>
+
+                    <div class="content">
+                        <h1 class="head"><b>Cozy up with our new <br>cookie collection</b></h1>
+                        <button onclick="return alertbtn();">Shop now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 03 -->
+    <div class="img-container container-fluid">
+        <div class="row justify-content-center g-4">
+            <div class="col-12">
+                <h2 class="head-two"><b>Freshly baked</b></h2>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3 product-card">
+                <img src="Images/image1.jpg" class="img-fluid" alt="">
+                <h3 class="head-3">Dark Chocolate Peanut <br> Butter Chip</h3>
+                <p>from $2.99</p>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3 product-card">
+                <img src="Images/image2.jpeg" class="img-fluid" alt="">
+                <h3 class="head-3">Chocolate Chip Walnuts</h3>
+                <p>from $2.99</p>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3 product-card">
+                <img src="Images/image3.jpeg" class="img-fluid" alt="">
+                <h3 class="head-3">Caramel Chocolate Chip</h3>
+                <p>from $2.99</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 04 -->
+    <div class="sec-container container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <nav class="new" data-aos="fade-right" data-aos-duration="500">
+                    <p data-aos="fade-right" data-aos-duration="500">Where to buy</p>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 05 -->
+    <div class="new-container container-fluid">
+        <div class="row justify-content-center g-4">
+            <div class="col-12">
+                <h2 class="head-4" data-aos="fade-right" data-aos-duration="500"><b>Build your Box</b></h2>
+            </div>
+
+            <div class="col-12 col-lg-7 build-main" data-aos="fade-right" data-aos-duration="500">
+                <img class="rounded" src="Images/image4.jpeg" class="img-fluid" alt="">
+            </div>
+
+            <div class="col-12 col-lg-4 build-side" data-aos="fade-right" data-aos-duration="500">
+                <img src="Images/new3.jpeg" class="img-fluid" alt="">
+                <div class="text">
+                    <h3 class="head-5">Dark Chocolate Peanut Butter Chip</h3>
+                    <p>from $2.99</p>
+                    <nav class="newnav">
+                        <p>Shop now</p>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 06 -->
+    <div class="text-container container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="para" data-aos="fade-right" data-aos-duration="500">
+                    <h5>Briochie is a premium chocolate company specializing <br> in crafting high-quality chocolate chips for baking <br> enthusiasts and professionals alike.</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 07 -->
+    <div class="marq-container container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <marquee direction="left">
+                    BRIOCHE 100% VEGAN HEALTHY INGREDIENTS
+                </marquee>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 08 -->
+    <div class="box-container container-fluid">
+        <h2 class="head-8" data-aos="fade-right" data-aos-duration="500"><b>Shop our Cookies</b></h2>
+
+        <div class="row justify-content-center g-4">
+            <div class="col-12 col-md-4 cookie-box" data-aos="fade-right" data-aos-duration="500">
+                <img src="Images/image5.jpeg" class="img-fluid" alt="">
+                <button>Signature Cookies</button>
+            </div>
+
+            <div class="col-12 col-md-4 cookie-box" data-aos="fade-right" data-aos-duration="500">
+                <img src="Images/image6.jpeg" class="img-fluid" alt="">
+                <button>Nutty & Nice</button>
+            </div>
+
+            <div class="col-12 col-md-4 cookie-box" data-aos="fade-right" data-aos-duration="500">
+                <img src="Images/image7.jpeg" class="img-fluid" alt="">
+                <button>Bunddles</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 09 -->
+    <div class="box2-container container-fluid">
+        <div class="row justify-content-center align-items-stretch g-4">
+            <div class="col-12 col-lg-5">
+                <h5 class="head-9" data-aos="fade-right" data-aos-duration="500">Every batch is crafted with <br> the finest ingredients,<br> mixed to perfection, and <br> baked with love to create a <br> treat that's not just <br> delicious, but memorable.</h5>
+            </div>
+            <div class="col-12 col-lg-6 story-image" ">
+                <img class="rounded"  src="Images/image8.jpeg" class="img-fluid"  data-aos="fade-right" data-aos-duration="500"  alt="" >
+            </div>
+        </div>
+    </div>
+
+    <!-- section 10 -->
+    <div class="last-container container-fluid">
+        <div class="row g-4">
+            <div class="col-12 col-md-3">
+                <h1 class="head-10">Brioche</h1>
+            </div>
+            <div class="col-12 col-sm-4 col-md-3">
+                <nav class="mynav">
+                    <ul class="lasnav">
+                        <li><h4 class="last-logo">SERVICES</h4></li>
+                        <li><a href="#">Branding</a></li>
+                        <li><a href="#">Design</a></li>
+                        <li><a href="#">Marketing</a></li>
+                        <li><a href="#">Advertisement</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-12 col-sm-4 col-md-3">
+                <nav class="mynav">
+                    <ul class="lasnav">
+                        <li><h4 class="last-logo">COMPANY</h4></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">Press kit</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-12 col-sm-4 col-md-3">
+                <nav class="mynav">
+                    <ul class="lasnav">
+                        <li><h4 class="last-logo">LEGAL</h4></li>
+                        <li><a href="#">Terms of use</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">cookie Policy</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 footer-col">
+                <footer class="foot">@ 2026 Faisal Nawaz, All Rights Reserved</footer>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/4.0.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        window.onload = function () {
+            AOS.init({
+                duration: 500,
+                delay: 200,
+                once: false,
+                easing: "linear"
+            });
+
+            AOS.refresh();
+        };
+
+        function alertbtn(){
+            Swal.fire({
+                title: 'This is Popup',
+                theme: 'bulma'
+            });
+        }
+    </script>
+</body>
+</html>
